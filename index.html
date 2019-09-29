@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Instant - Bootstrap Personal Template</title>
+  <title>About me</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
@@ -23,12 +22,6 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Template Name: Instant
-    Template URL: https://templatemag.com/instant-bootstrap-personal-template/
-    Author: TemplateMag.com
-    License: https://templatemag.com/license/
-  ======================================================= -->
 </head>
 
 <body>
@@ -37,20 +30,13 @@
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <a class="navbar-brand" href="index.html">INSTANT</a>
+
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="works.html" class="smoothscroll">Works</a></li>
-          <li><a href="contact.html" class="smoothscroll">Contact</a></li>
+
+
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -64,7 +50,7 @@
         <div class="col-lg-6 col-lg-offset-3">
           <h4>HELLO PEOPLE, MY NAME IS</h4>
           <h1>NILADRI SEN</h1>
-          <h4>INTERESTED IN WEB DESIGNING , SOFTWARE DEVELOPER AND MACHINE LEARNING  </h4>
+          <h4>INTERESTED IN WEB DESIGNING , SOFTWARE DEVELOPING AND MACHINE LEARNING  </h4>
         </div>
       </div>
     </div>
@@ -74,72 +60,86 @@
   <section id="works"></section>
   <div class="container">
     <div class="row centered mt mb">
-      <h1>My Portfolio</h1>
+      <h1>My Project</h1>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="works.html"><img src="img/portfolio/folio01.png" class="img-responsive"></a>
+      <div class="card">
+        <img src="img/portfolio/folio01.jpg" height="300" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" >Grocery app Git hub Link  :  </h5>
+          <p class="card-text">  <a href="https://github.com/Niladri31/Grocery-Web-App"> Click here</a>  </p>
+
+        </div>
+
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="works.html"><img src="img/portfolio/folio02.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="works.html"><img src="img/portfolio/folio03.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="works.html"><img src="img/portfolio/folio04.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="works.html"><img src="img/portfolio/folio05.png" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="works.html"><img src="img/portfolio/folio06.png" class="img-responsive"></a>
-      </div>
-    </div>
+</div>
   </div>
+<div class="text">
+  <h2> About The project </h2>
+<p>  This  project is  made in angular 8 . It is my Individual Project which was made as my design and analysis of algo assignment . </p>
+
+
+<p> My front end is made in HTML , CSS and BOOTSTRAP . I have made use bootstrap classes  "cards" for making cards in which all my grocery
+  items are listed. btn-primary for button , "table class for making table and rest of the items like forms etc are all made of html and css.
+   </p>
+
+   <p>In Angular I have made use of Routers (which are if you want to navigate to different pages in your application,
+     but you also want the application
+      to be a SPA (Single Page Application), with no page reloading, you can use the Routing module.) to navigate to different components
+
+    </p>
+    <p>I have used services - Angular services are singleton objects which get instantiated only once during the lifetime of an
+       application. They contain methods that maintain data throughout the life of an application, i.e.
+       data does not get refreshed and is available all the time. The main objective of a service
+      is to organize and share business logic, models, or data and functions with different components of an Angular application.
+    i.e. it behaves as a global method declaration  I have defined all my grocery items in mainservice.ts and methods find grocery , get selected items index in it which i need
+    to access in different components in my project .
+    </p>
+
+    <p>I have made use of different component -Components are like the basic building block in an Angular application to make
+      every category components and imported services to so that every component can access the methods of services . </p>
+
+      <p> For adding to cart i have made use of parameterized router to pass the item id and quantity user enters to cart coponent .
+        In cart component using the typescript file (Used in angular which is superscript of javascript ) to get the parameters and store it
+            in Local storage of browsers(LocalStorage is a type of web storage that allows Javascript websites and apps to store and access data right in the browser with no expiration date.
+            This means the data stored in the browser will persist even after the browser window has been closed)  to store the cart components . Local storage mainly uses getItems and setItems method to
+           get and  store data . We can use Ajax to send local storage data to servers.
+
+      </p>
+
+
+
+
+    </div>
+
+
+
 
   <div id="social">
     <div class="container">
       <div class="row centered">
+
         <div class="col-lg-2">
-          <a href="#"><i class="fa fa-dribbble"></i></a>
+          <a href="https://www.facebook.com/niladri.sen.31"><i class="fa fa-facebook"></i></a>
         </div>
+
         <div class="col-lg-2">
-          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/niladri-sen-71b965170/"><i class="fa fa-linkedin"></i></a>
         </div>
+
         <div class="col-lg-2">
-          <a href="#"><i class="fa fa-twitter"></i></a>
+        <p > My Email Id : sen98niladri@gmail.com</p>
         </div>
+
         <div class="col-lg-2">
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-        </div>
-        <div class="col-lg-2">
-          <a href="#"><i class="fa fa-instagram"></i></a>
-        </div>
-        <div class="col-lg-2">
-          <a href="#"><i class="fa fa-tumblr"></i></a>
-        </div>
+          <p >My phone no. : 9579249009</p>
+          </div>
+
 
       </div>
     </div>
   </div>
 
-  <div id="copyrights">
-    <div class="container">
-      <p>
-        &copy; Copyrights <strong>Instant</strong>. All Rights Reserved
-      </p>
-      <div class="credits">
-        <!--
-          You are NOT allowed to delete the credit link to TemplateMag with free version.
-          You can delete the credit link only if you bought the pro version.
-          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/instant-bootstrap-personal-template/
-          Licensing information: https://templatemag.com/license/
-        -->
-        Created with Instant template by <a href="https://templatemag.com/">TemplateMag</a>
-      </div>
-    </div>
-  </div>
-  <!-- / copyrights -->
+
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

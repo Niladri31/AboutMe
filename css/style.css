@@ -16,6 +16,12 @@
     text-shadow: none;
 }
 
+.text{
+margin-left: 80px;
+margin-right: 80px;
+
+}
+
 ::selection {
     background: #16a085;
     color: #a4003a;
