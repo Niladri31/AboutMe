@@ -1,19 +1,22 @@
-/**
-* Template Name: Instant
-* Template URL: https://templatemag.com/instant-bootstrap-personal-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
 
-/* ==========================================================================
-   Base Styles, Bootstrap Modifications & Fonts Import
-   ========================================================================== */
 
 
 ::-moz-selection {
     background: #f2c2c9;
     color: #a4003a;
     text-shadow: none;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .text{
